@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "portfolio-advisor"
+version = "0.1.0"
+description = ""
+authors = ["jamesrubio23 <jaimearistos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.3.2"
+ipykernel = "^6.29.5"
+yfinance = "^0.2.54"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
